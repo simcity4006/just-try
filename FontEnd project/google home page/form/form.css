@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form {
+  background-color: purple;
+  width: 350px;
+  height: auto;
+  margin: auto auto;
+  border-radius: 20% 20% 10% 10%;
+}
+.form h1 {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+.input {
+  text-align: center;
+}
+.input input {
+  padding: 5px;
+  width: 80%;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.input input:hover {
+  padding: 10px;
+}
+.input input:focus-visible {
+  border: 1px solid;
+  border-color: red;
+}
+.btn_login {
+  background-color: green;
+  width: 80%;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 1s;
+}
+.forget_password {
+  position: relative;
+  top: -10px;
+  left: -85px;
+  color: white;
+}
+.btn_login:hover {
+  background-color: black;
+  color: white;
+}
